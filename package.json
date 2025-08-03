@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "talent-x",
+=======
+  "name": "copy-of-talent-x",
+>>>>>>> adb81710b27097d4159147ba90f707936b9a6190
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,15 +13,27 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.1",
     "@google/genai": "^1.2.0",
     "pdfjs-dist": "^4.4.168"
+=======
+    "@google/genai": "^1.2.0",
+    "pdfjs-dist": "^4.4.168",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.1"
+>>>>>>> adb81710b27097d4159147ba90f707936b9a6190
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "typescript": "~5.7.2",
+<<<<<<< HEAD
     "vite": "^6.2.0"
+=======
+    "vite": "^6.3.5"
+>>>>>>> adb81710b27097d4159147ba90f707936b9a6190
   }
 }

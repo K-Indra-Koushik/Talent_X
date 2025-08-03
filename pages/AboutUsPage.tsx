@@ -30,7 +30,11 @@ const AboutUsPage: React.FC = () => {
           <strong>Job Match Percentage:</strong> Understand how well your profile aligns with specific job descriptions, helping you tailor your applications.
         </li>
         <li>
+<<<<<<< HEAD
           <strong>ATS Score Estimator:</strong> Optimize your resume for Applicant Tracking Systems and increase your chances of getting noticed.
+=======
+          <strong>ATS Compatibility Score:</strong> Optimize your resume for Applicant Tracking Systems and increase your chances of getting noticed with a precise score.
+>>>>>>> adb81710b27097d4159147ba90f707936b9a6190
         </li>
         <li>
           <strong>AI Mock Interviews:</strong> Practice your interview skills with AI-driven simulations and receive constructive feedback to build your confidence.

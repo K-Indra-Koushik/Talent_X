@@ -113,7 +113,11 @@ const HomePage: React.FC = () => {
       <section className="py-16 bg-slate-800/50 rounded-xl shadow-xl text-center">
         <h2 className="text-3xl font-bold text-sky-300 mb-4">Elevate Your Career with AI</h2>
         <p className="text-lg text-gray-300 max-w-xl mx-auto mb-8">
+<<<<<<< HEAD
           Utilize our AI-powered services like Resume Analysis, ATS Score Estimation, and Mock Interviews to stand out.
+=======
+          Utilize our AI-powered services like Resume Analysis, ATS Compatibility Score, and Mock Interviews to stand out.
+>>>>>>> adb81710b27097d4159147ba90f707936b9a6190
         </p>
         <Link 
           to="/services" 

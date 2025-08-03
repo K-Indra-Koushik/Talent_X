@@ -85,11 +85,32 @@ export interface ApplicationHistoryItem {
 }
 
 // Gemini Service related types
+<<<<<<< HEAD
 export interface GeminiAnalysisResult {
   feedback: string;
   suggestions?: string[];
 }
 
+=======
+
+// Structure for detailed breakdown of ATS parameters
+export interface AtsParameterScore {
+  parameterName: string; // e.g., "Keyword Matching", "Experience Match"
+  score?: number; // Optional: 0-100 for this parameter
+  status?: string; // e.g., "Strong Match", "Partial Match", "Needs Improvement"
+  feedback: string; // Markdown formatted explanation of how the parameter was evaluated
+  recommendation?: string; // Markdown formatted actionable advice for this parameter
+}
+
+export interface GeminiAnalysisResult {
+  feedback: string; // Main feedback, could include overall summary.
+  suggestions?: string[]; // General suggestions or list of main points.
+  detailedBreakdown?: AtsParameterScore[]; // For structured parameter-wise feedback from ATS Score Calculator.
+  overallScore?: number; // Explicit field for overall ATS score (0-100).
+}
+
+
+>>>>>>> adb81710b27097d4159147ba90f707936b9a6190
 export interface GroundingChunk {
   web?: {
     uri: string;

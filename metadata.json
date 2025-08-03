@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "Talent X",
+=======
+  "name": "Copy of Talent X",
+>>>>>>> adb81710b27097d4159147ba90f707936b9a6190
   "description": "A modern, responsive web platform serving as a central hub for job and internship seekers, providing comprehensive listings alongside a suite of AI-powered tools to enhance career readiness and application success.",
   "requestFramePermissions": [],
   "prompt": ""
